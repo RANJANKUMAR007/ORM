@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class Orm5Config(AppConfig):
+class RestaurantConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'orm5'
+    name = 'Restaurant'
